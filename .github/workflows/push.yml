@@ -1,0 +1,11 @@
+name: 'Release 🚀'
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    uses: myparcelnl/actions/.github/workflows/--semantic-release.yml@v2
+    secrets: inherit
