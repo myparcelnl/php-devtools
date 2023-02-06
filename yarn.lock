@@ -45,10 +45,10 @@
   dependencies:
     "@semantic-release/error" "^2.2.0"
 
-"@myparcel/semantic-release-config@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@myparcel/semantic-release-config/-/semantic-release-config-4.0.0.tgz#77b58cdba83cb3c41137027995fbe3642edca79f"
-  integrity sha512-+iNovKsZnNT9SmTOsF/1KDxGfEBqiJ9qmTg7GkpvMTJ7AVJefI0BybtHOCiyRUhuFklKP3v2EJXcoD15OxpFOg==
+"@myparcel/semantic-release-config@^4.2.3":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/@myparcel/semantic-release-config/-/semantic-release-config-4.2.3.tgz#3f8eefd8b87c2ead15507a29c4fca3d8b37eb70c"
+  integrity sha512-OIFqlqCw1q3WnKThRWoFfBcLBf74DUOE0fb/5fgFVoPSsp9hUWGB/7wgikIrXIY36QvVEAwKwEF2JxWoBhZA4Q==
   dependencies:
     "@iwavesmedia/semantic-release-composer" "^1.0.0"
     "@semantic-release/changelog" "^6.0.1"
