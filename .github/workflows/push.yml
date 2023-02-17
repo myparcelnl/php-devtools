@@ -7,5 +7,5 @@ on:
 
 jobs:
   release:
-    uses: myparcelnl/actions/.github/workflows/--semantic-release.yml@v2
+    uses: myparcelnl/actions/.github/workflows/--semantic-release.yml@v3
     secrets: inherit
