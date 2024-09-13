@@ -12,5 +12,10 @@
             "name": "Edie Lemoine",
             "email": "edie@myparcel.nl"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyParcelNL\\PhpDevTools\\": "src/"
+        }
+    }
 }

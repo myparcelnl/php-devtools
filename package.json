@@ -1,13 +1,32 @@
 {
   "name": "@myparcel/php-devtools",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
   "license": "MIT",
   "author": "Edie Lemoine <edie@myparcel.nl>",
-  "devDependencies": {
-    "@myparcel/semantic-release-config": "^4.0.0"
+  "scripts": {
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{md,yml,json,html}": "prettier --write"
   },
   "release": {
     "extends": "@myparcel/semantic-release-config/github-composer"
+  },
+  "devDependencies": {
+    "@iwavesmedia/semantic-release-composer": "^1.0.0",
+    "@myparcel/semantic-release-config": "^5.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^10.3.3",
+    "husky": "^9.0.0",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.3.3",
+    "semantic-release": "^24.1.1"
+  },
+  "packageManager": "yarn@4.4.1",
+  "volta": {
+    "node": "20.17.0",
+    "yarn": "4.4.1-git.20240825.hash-b2f315f6"
   }
 }
