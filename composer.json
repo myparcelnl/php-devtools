@@ -2,6 +2,7 @@
     "name": "myparcelnl/devtools",
     "version": "1.0.0",
     "description": "Dev tools for linting and analysing php projects.",
+    "abandoned": true,
     "require": {
         "php": ">= 7",
         "phpmd/phpmd": ">= 2.0"
