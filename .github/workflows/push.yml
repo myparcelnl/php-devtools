@@ -9,7 +9,7 @@ jobs:
   release:
     runs-on: ubuntu-22.04
     steps:
-      - uses: myparcelnl/actions/setup-git-credentials@v4
+      - uses: myparcelnl/actions/setup-git-credentials@v5
         id: credentials
         with:
           app-id: ${{ secrets.MYPARCEL_APP_ID }}
@@ -20,8 +20,8 @@ jobs:
           token: ${{ steps.credentials.outputs.token }}
           fetch-depth: 0
 
-      - uses: myparcelnl/actions/yarn-install@v4
+      - uses: myparcelnl/actions/yarn-install@v5
 
-      - uses: myparcelnl/actions/semantic-release@v4
+      - uses: myparcelnl/actions/semantic-release@v5
         with:
           token: ${{ steps.credentials.outputs.token }}
